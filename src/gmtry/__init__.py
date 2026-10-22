@@ -8,6 +8,10 @@ from .quadrilateral import (
     Parallelogram,
     Trapezoid,
 )
+from .ellipse import (
+    Ellipse,
+    Circle
+)
 
 __all__ = [
     "Triangle",
@@ -17,4 +21,6 @@ __all__ = [
     "Rhombus",
     "Parallelogram",
     "Trapezoid",
+    "Elipse",
+    "Circle",
 ]
