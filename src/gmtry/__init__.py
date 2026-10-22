@@ -1,7 +1,20 @@
-# src/gmtry/__init__.py
 
 from .triangle import Triangle
+from .quadrilateral import (
+    Quadrilateral,
+    Square,
+    Rectangle,
+    Rhombus,
+    Parallelogram,
+    Trapezoid,
+)
 
 __all__ = [
-    "Triangle"
+    "Triangle",
+    "Quadrilateral",
+    "Square",
+    "Rectangle",
+    "Rhombus",
+    "Parallelogram",
+    "Trapezoid",
 ]
