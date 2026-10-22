@@ -13,6 +13,8 @@ from .ellipse import (
     Circle
 )
 
+from .polygon import Polygon, RegularPolygon
+
 __all__ = [
     "Triangle",
     "Quadrilateral",
@@ -21,6 +23,8 @@ __all__ = [
     "Rhombus",
     "Parallelogram",
     "Trapezoid",
-    "Elipse",
+    "Ellipse",
     "Circle",
+    "Polygon",
+    "RegularPolygon"
 ]
